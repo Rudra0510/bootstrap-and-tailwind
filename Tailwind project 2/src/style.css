@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*Custom class */
+.btn-primary{
+    @apply px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600;
+}
+
+.r1{
+    @apply px-4 py-3 bg-red-500 text-black height-50 width-150;
+}
